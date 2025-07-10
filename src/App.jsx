@@ -5,10 +5,10 @@ import { useSelector } from "react-redux";
 import Header from "./components/layout/header/Header";
 import Main from "./components/pages/main/Main";
 import Admin from "./components/pages/admin/Admin";
-import Category from "./components/pages/Category/Category";
 import Footer from "./components/layout/footer/Footer";
 import Loading from "./components/ui/Loading";
 import Basket from "./components/pages/basket/Basket";
+import Category from "./components/pages/category/Category";
 
 function App() {
   const [loading, setLoading] = useState(true);
