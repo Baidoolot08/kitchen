@@ -1,0 +1,32 @@
+.footer {
+  background: rgba(160, 82, 45, 0.4);
+  padding: 15px 30px;
+  &__content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+
+  &__logo {
+    width: 70px;
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      object-fit: contain;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .footer__content {
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+  }
+}

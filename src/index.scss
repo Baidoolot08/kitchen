@@ -1,0 +1,20 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+.containet {
+  width: 90%;
+  margin: 0 auto;
+}
+.app {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  min-height: 100vh;
+  footer {
+    margin-top: 0 auto;
+  }
+}

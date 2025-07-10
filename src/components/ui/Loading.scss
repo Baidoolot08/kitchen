@@ -1,0 +1,45 @@
+.loading-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(90deg, #1f3a47, #233e4c);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .loading-content {
+    font-family: monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.5rem;
+    color: white;
+    font-size: 30px;
+  }
+
+  img {
+    width: 200px;
+    animation: pulse 2s infinite;
+  }
+
+  .typewriter-text {
+    span.blink {
+      animation: blink 1s step-start 0s infinite;
+    }
+  }
+}
+
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes pulse {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+}

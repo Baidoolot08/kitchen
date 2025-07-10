@@ -1,0 +1,16 @@
+.category {
+  width: 100%;
+  h1 {
+    text-align: left;
+    margin-top: 12px;
+  }
+  &--page {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2.5rem;
+    align-items: center;
+  }
+}
